@@ -349,6 +349,7 @@ func (c *parser) append(ctx context.Context, config string) error {
 
 			if err := fs.Parse(kv[1:]); err != nil || fs.NArg() != 1 {
 				log.Printf("Warning: Grub parser could not parse %q", kv)
+				continue
 			}
 			searchName := fs.Arg(0)
 			if *searchUUID && *searchLabel || *searchUUID && *searchFile || *searchLabel && *searchFile {
