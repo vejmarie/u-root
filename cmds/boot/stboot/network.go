@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/u-root/u-root/pkg/boot/stboot"
-	"github.com/u-root/u-root/pkg/dhclient"
+	"github.com/vejmarie/u-root/pkg/boot/stboot"
+	"github.com/vejmarie/u-root/pkg/dhclient"
 	"github.com/vishvananda/netlink"
 )
 
