@@ -347,7 +347,7 @@ func (c *parser) append(ctx context.Context, config string) error {
 				return pflag.NormalizedName(name)
 			})
 
-			if err := fs.Parse(kv[1:]); err != nil || fs.NArg() != 1 {
+			if err := fs.Parse(kv[1:2]); err != nil || fs.NArg() != 1 {
 				log.Printf("Warning: Grub parser could not parse %q", kv)
 				continue
 			}
