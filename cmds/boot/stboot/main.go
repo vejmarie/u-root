@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vejmarie/u-root/pkg/boot/stboot"
-	"github.com/vejmarie/u-root/pkg/recovery"
+	"github.com/u-root/u-root/pkg/boot/stboot"
+	"github.com/u-root/u-root/pkg/recovery"
 )
 
 var debug = func(string, ...interface{}) {}
