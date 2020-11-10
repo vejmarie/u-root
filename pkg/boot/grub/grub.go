@@ -347,7 +347,6 @@ func (c *parser) append(ctx context.Context, config string) error {
 				return pflag.NormalizedName(name)
 			})
 
-jfklerwjfkerwhgjfiteb vtvrejklnjvlg
 			if err := fs.Parse(kv[1:2]); err != nil || fs.NArg() != 1 {
 				log.Printf("Warning: Grub parser could not parse vejmarie: %q", kv[1:2])
 				continue
